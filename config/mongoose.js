@@ -1,16 +1,16 @@
 const mongoose = require("mongoose");
 
 //connecting mongoose with database
-// const DB =
-//   "mongodb+srv://yousuf337692qureshi:bH764IQfTC3MYtbK@cluster0.cvff5s1.mongodb.net/placement-cell?retryWrites=true&w=majority";
+const DB =
+  "mongodb+srv://yousuf337692qureshi:bH764IQfTC3MYtbK@cluster0.cvff5s1.mongodb.net/placement-cell?retryWrites=true&w=majority";
 
-// mongoose.connect(DB, {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// });
+mongoose.connect(DB, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 // for local use, use the below connection
-mongoose.connect("mongodb://127.0.0.1:27017/placement_cell");
+// mongoose.connect("mongodb://127.0.0.1:27017/placement_cell");
 
 const db = mongoose.connection;
 
