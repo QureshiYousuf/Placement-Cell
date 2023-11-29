@@ -22,3 +22,5 @@ Environment Variables:
 - PORT = [Your Port]
 - SECRET = [Your Secret]
 - MONGO_URI = [Your MongoDB Ur]
+
+<!-- "mongodb": "^5.8.1", -->
