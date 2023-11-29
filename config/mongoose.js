@@ -10,7 +10,7 @@ const mongoose = require("mongoose");
 // });
 
 // for local use, use the below connection
-mongoose.connect("mongodb://localhost:27017/placement_cell");
+mongoose.connect("mongodb://127.0.0.1:27017/placement_cell");
 
 const db = mongoose.connection;
 
