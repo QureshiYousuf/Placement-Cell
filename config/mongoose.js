@@ -1,8 +1,14 @@
 const mongoose = require("mongoose");
 
 //connecting mongoose with database
+// const DB =
+//   "mongodb+srv://yousuf337692qureshi:bH764IQfTC3MYtbK@cluster0.cvff5s1.mongodb.net/placement-cell?retryWrites=true&w=majority";
+
 const DB =
-  "mongodb+srv://yousuf337692qureshi:bH764IQfTC3MYtbK@cluster0.cvff5s1.mongodb.net/placement-cell?retryWrites=true&w=majority";
+  "mongodb+srv://yousuf337692qureshi:TIYEIQDT1N9lrzFZ@cluster0.w9wz9z6.mongodb.net/placement-cell?retryWrites=true&w=majority";
+
+// ChO5JkyS3KViUlYj;
+// TIYEIQDT1N9lrzFZ;
 
 mongoose.connect(DB, {
   useNewUrlParser: true,
