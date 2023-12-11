@@ -17,6 +17,8 @@
 
 Clone the repo and install the dependencies.
 
+Clone the repository
+
 ```bash
 git clone https://github.com/QureshiYousuf/Placement-Cell.git
 ```
@@ -24,6 +26,8 @@ git clone https://github.com/QureshiYousuf/Placement-Cell.git
 ```bash
 cd Placement-Cell
 ```
+
+Install the dependencies:
 
 ```bash
 npm install
@@ -35,6 +39,6 @@ npm install
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) and take a look around.
+Open [http://localhost:8000](http://localhost:8000) and take a look around.
 
 <!-- "mongodb": "^5.8.1", -->
