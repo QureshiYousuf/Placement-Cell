@@ -15,12 +15,26 @@
 
 ## Setup
 
-Run `npm install` to install required dependencies
+Clone the repo and install the dependencies.
 
-Environment Variables:
+```bash
+git clone https://github.com/QureshiYousuf/Placement-Cell.git
+```
 
-- PORT = [Your Port]
-- SECRET = [Your Secret]
-- MONGO_URI = [Your MongoDB Ur]
+```bash
+cd Placement-Cell
+```
+
+```bash
+npm install
+```
+
+## To start the express server, run the following
+
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) and take a look around.
 
 <!-- "mongodb": "^5.8.1", -->
