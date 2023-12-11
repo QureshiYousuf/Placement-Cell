@@ -17,7 +17,7 @@
 
 Clone the repo and install the dependencies.
 
-Clone the repository
+- Clone the repository:
 
 ```bash
 git clone https://github.com/QureshiYousuf/Placement-Cell.git
@@ -27,13 +27,13 @@ git clone https://github.com/QureshiYousuf/Placement-Cell.git
 cd Placement-Cell
 ```
 
-Install the dependencies:
+- Install the dependencies:
 
 ```bash
 npm install
 ```
 
-## To start the express server, run the following
+## To start the express server, run the following:
 
 ```bash
 npm start
